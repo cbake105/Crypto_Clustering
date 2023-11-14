@@ -3,9 +3,7 @@
 ## Prepare the Data
 - Use the `StandardScaler()` module from `sci`k`it-learn` to normalize the data from the CSV file.
 - Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
-    - The first five rows of the scaled DataFrame should appear as follows:  
-
-        ![The first five rows of the scaled DataFrame](./images/image.png)
+ 
 
 ## Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for `k` using the following steps:
@@ -35,9 +33,6 @@ Use the following steps to cluster the cryptocurrencies for the best value for `
     - What is the total explained variance of the three principal components?
 - Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
-    - The first five rows of the PCA DataFrame should appear as follows:
-
-        ![The first five rows of the PCA DataFrame](./images/image-1.png)
 
 ## Find the Best Value for `k` Using the PCA Data
 Use the elbow method on the PCA data to find the best value for `k` using the following steps:
